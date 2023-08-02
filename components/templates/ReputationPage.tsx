@@ -11,7 +11,6 @@ const ReputationPage = () => {
   useGate(ReputationGate);
   const reputations = useStore($reputations);
   const spinner = useStore(getReputationsFx.pending);
-console.log(reputations)
   return (
     <>
         <header>
