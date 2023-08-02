@@ -11,7 +11,7 @@ const ReputationPage = () => {
   useGate(ReputationGate);
   const reputations = useStore($reputations);
   const spinner = useStore(getReputationsFx.pending);
-
+console.log(reputations)
   return (
     <>
         <header>
@@ -26,7 +26,7 @@ const ReputationPage = () => {
                             width={50}
                             height={50}
                         />
-                        <a className="navbar-brand">РMember reputation</a>
+                        <a className="navbar-brand">Member reputation</a>
                     </div>
                 </nav>
             </div>
@@ -40,7 +40,7 @@ const ReputationPage = () => {
                                 <tr>
                                     <th>Place</th>
                                     <th>Member</th>
-                                    <th>Reputaion</th>
+                                    <th>Reputation</th>
                                 </tr>
                             </thead>
                             <tbody>
