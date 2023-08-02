@@ -26,7 +26,7 @@ const ReputationPage = () => {
                             width={50}
                             height={50}
                         />
-                        <a className="navbar-brand">Репутация участников</a>
+                        <a className="navbar-brand">РMember reputation</a>
                     </div>
                 </nav>
             </div>
@@ -38,9 +38,9 @@ const ReputationPage = () => {
                         <table className="table table-striped table-dark mt-2 table-bordered">
                             <thead>
                                 <tr>
-                                    <th>Место</th>
-                                    <th>Участник</th>
-                                    <th>Репутация</th>
+                                    <th>Place</th>
+                                    <th>Member</th>
+                                    <th>Reputaion</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -52,7 +52,7 @@ const ReputationPage = () => {
                                         <td className={styles.full_name}>
                                             <div className={styles.full_name__inner}>
                                                 <Image
-                                                    src={!!userAvatar ? userAvatar : '/assets/logo.png'}
+                                                    src={!!userAvatar ? userAvatar : 'public/assets/logo.png'}
                                                     className="rounded-circle"
                                                     alt={fullName}
                                                     style={{ marginRight: 15 }}
