@@ -2,7 +2,7 @@
 
 const nextConfig = {
   images: {
-    domains: ['api.telegram.org']
+    domains: ['api.telegram.org', 'api.telegram.org/file/bot6253324624']
   }
 };
 
